@@ -1,0 +1,144 @@
+* {
+  box-sizing:border-box;}
+
+html {
+  
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  
+  background-image: url("https://thumbs.dreamstime.com/b/wild-flowers-plant-summer-autumn-nature-background-banner-website-55976971.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Begin {
+  color: rgb(204, 66, 181);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 4 px;
+  font-size: 50px;
+  font-style: underline;
+}
+h2.Begin2  {
+  text-align: left;
+  align-content: left;
+  align-items: flex-start;
+  font-size: 40px;
+  color: #f75c48;
+}
+.Begin2 button {
+  padding: 20px 20px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  cursor: pointer;
+  outline:rgba(0, 0, 0, 0.2);
+  background-color: #73ff3c;
+  border: solid 2px navy;
+  
+  box-shadow: 0 5px #999;
+}
+.game {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background-image: url("https://static8.depositphotos.com/1447017/929/i/600/depositphotos_9292507-stock-photo-spring-background.jpg");
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  background-color: #f75c48;
+  border-radius: 5px;
+  
+}
+h1.Intro {
+  background-color: yellow;
+  font-size: 25px;
+  font-style: bold;
+   font-family: cursive;
+  color: rgb(145, 37, 100);
+  text-align:center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px;
+  border: 1px solid #f54020;
+}
+
+.grid button {
+  background-color: whitesmoke ;
+  color: #003333;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #550000;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer button {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  width: 80px;
+  background-color: #f0ff17;
+  color: #1f0033;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  color: #D4EE9F;
+  background-color: #003333;
+}
+
+.footer span {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  color: #4642f8;
+  font-weight: bold;
+  margin: auto 0;
+}
+
+.message {
+  color:#AA3939;
+  height: 80px;
+}
+
+.fade {  
+  -webkit-animation-name: fade;  
+  -webkit-animation-duration: 1.5s;  
+  animation-name: fade;  
+  animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
+
+@keyframes fade {  
+  from {  
+      opacity: .4  
+  }  
+  to {  
+      opacity: 1  
+  }  
+}  
